@@ -14,7 +14,7 @@
 #+HTML_HEAD:     line-height: 1.5;
 #+HTML_HEAD:     color: #24292e;
 #+HTML_HEAD:     background-color: #fff;
-#+HTML_HEAD:     max-width: 800px;
+#+HTML_HEAD:     max-width: 80%;
 #+HTML_HEAD:     margin: 0 auto;
 #+HTML_HEAD:     padding: 20px;
 #+HTML_HEAD:   }
