@@ -1,8 +1,5 @@
-# Mac files
+*.html
 .DS_Store
-
-# Emacs files
+*.el
 *.eld
-# Org and image files
 *.org
-*.png
