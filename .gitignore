@@ -3,3 +3,6 @@
 
 # Emacs files
 *.eld
+# Org and image files
+*.org
+*.png

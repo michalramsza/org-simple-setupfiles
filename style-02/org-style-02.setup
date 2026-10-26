@@ -114,6 +114,24 @@
 #+HTML_HEAD:     text-align: justify;
 #+HTML_HEAD:     color: #586069;
 #+HTML_HEAD: }
+#+HTML_HEAD:   dl.field-list {
+#+HTML_HEAD:     display: grid;
+#+HTML_HEAD:     grid-template-columns: max-content 1fr;
+#+HTML_HEAD:     column-gap: 0.5ch;
+#+HTML_HEAD:     row-gap: 0.5rem;
+#+HTML_HEAD:   }
+#+HTML_HEAD:   dl.field-list dt {
+#+HTML_HEAD:     grid-column: 1;
+#+HTML_HEAD:     text-align: right;
+#+HTML_HEAD:     font-weight: bold;
+#+HTML_HEAD:   }
+#+HTML_HEAD:   dl.field-list dt::after {
+#+HTML_HEAD:     content: ":";
+#+HTML_HEAD:   }
+#+HTML_HEAD:   dl.field-list dd {
+#+HTML_HEAD:     grid-column: 2;
+#+HTML_HEAD:     margin-left: 0;
+#+HTML_HEAD:   }
 #+HTML_HEAD: </style>
 #+HTML_HEAD: <script>
 #+HTML_HEAD:   document.addEventListener('DOMContentLoaded', function () {
